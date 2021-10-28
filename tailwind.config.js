@@ -2,7 +2,9 @@ module.exports = {
   purge: [],
   darkMode: false,
   theme: {
-    extend: {},
+    fontFamily: {
+     'body': ['Manrope'],
+    }
   },
   variants: {
     extend: {
