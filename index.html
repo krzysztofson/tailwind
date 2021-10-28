@@ -9,8 +9,8 @@
   </head>
   <body>
     <footer>
-        <div class="px-2 pt-4">
-            <div class="grid grid-cols-4 gap-5">
+        <div class="container mx-auto pt-4">
+            <div class="px-2 grid grid-cols-4 gap-5 lg:hidden">
                 <a href="#" class="py-3 rounded border border-gray-200 hover:border-gray-400 duration-200">
                     <svg class="mx-auto" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M3.92551 1.74386C3.87012 1.67282 3.80028 1.61435 3.72059 1.57233C3.64091 1.53031 3.55321 1.50569 3.4633 1.50011C3.37339 1.49454 3.28332 1.50812 3.19905 1.53997C3.11479 1.57182 3.03825 1.62121 2.97451 1.68486L2.00451 2.65486C1.55151 3.10786 1.38451 3.74986 1.58351 4.31286C2.40423 6.64529 3.73959 8.76299 5.49051 10.5089C7.2364 12.2598 9.3541 13.5951 11.6865 14.4159C12.2495 14.6139 12.8915 14.4479 13.3445 13.9949L14.3145 13.0249C14.3781 12.9611 14.4274 12.8845 14.4592 12.8002C14.491 12.7159 14.5045 12.6258 14.4988 12.5358C14.4931 12.4459 14.4684 12.3583 14.4263 12.2786C14.3842 12.199 14.3256 12.1292 14.2545 12.0739L12.0925 10.3919C12.0165 10.3328 11.928 10.2917 11.8337 10.2718C11.7395 10.2518 11.642 10.2536 11.5485 10.2769L9.49651 10.7899C9.2224 10.8585 8.93519 10.855 8.66286 10.7796C8.39052 10.7042 8.14235 10.5596 7.94251 10.3599L5.64051 8.05686C5.44073 7.85703 5.29613 7.60885 5.22077 7.33652C5.14541 7.06418 5.14188 6.77697 5.21051 6.50286L5.72351 4.45086C5.74678 4.3574 5.74853 4.25987 5.72861 4.16563C5.70868 4.07139 5.66762 3.98291 5.60851 3.90686L3.92551 1.74386ZM2.26751 0.978864C2.43158 0.814902 2.62863 0.687701 2.84561 0.605702C3.06258 0.523702 3.29451 0.488778 3.52602 0.503247C3.75752 0.517716 3.98329 0.581247 4.18837 0.689624C4.39345 0.798002 4.57313 0.948749 4.71551 1.13186L6.39651 3.29386C6.70551 3.68986 6.81451 4.20686 6.69251 4.69386L6.17951 6.74686C6.15283 6.85339 6.15419 6.96501 6.18345 7.07086C6.21272 7.17671 6.2689 7.27317 6.34651 7.35086L8.65051 9.65286C8.7282 9.73048 8.82467 9.78665 8.93051 9.81592C9.03636 9.84518 9.14798 9.84654 9.25451 9.81986L11.3065 9.30686C11.5472 9.24675 11.7984 9.24216 12.0411 9.29344C12.2838 9.34473 12.5117 9.45053 12.7075 9.60286L14.8695 11.2839C15.6465 11.8879 15.7185 13.0369 15.0225 13.7319L14.0525 14.7019C13.3595 15.3949 12.3225 15.6999 11.3555 15.3599C8.88192 14.4892 6.63606 13.0729 4.78451 11.2159C2.92715 9.36441 1.51045 7.11855 0.639509 4.64486C0.299509 3.67786 0.604509 2.64086 1.29751 1.94686L2.26751 0.977864V0.978864Z" fill="#111827"/>
@@ -33,7 +33,7 @@
                 </a>
             </div>
 
-            <div class="pt-6">
+            <div class="pt-6 px-2 lg:hidden">
                 <div class="py-3 border-t border-gray-200 overflow-hidden max-h-12 hover:max-h-64 duration-200">
                     <div class="flex items-center justify-between">
                         <h4 class="uppercase text-sm ml-2">shop online</h4>
@@ -132,7 +132,7 @@
                 </div>
             </div>
 
-            <div class="pt-14 space-x-6 flex items-center justify-center">
+            <div class="pt-14 space-x-6 flex items-center justify-center lg:hidden">
                 <a class="hover:opacity-80 duration-200" href="#" target="_blank">
                     <img src="images/social/facebook.svg" alt="facebook icon">
                 </a>
@@ -145,6 +145,72 @@
                 <a class="hover:opacity-80 duration-200" href="#" target="_blank">
                     <img src="images/social/pinterest.svg" alt="pinterest icon">
                 </a>
+            </div>
+
+            <div class="hidden lg:grid grid-cols-6 gap-12 pt-12 pb-16 border-b border-gray-200">
+                <div class="col-span-2 text-center flex flex-col items-center">
+                    <img class="pt-4" src="images/logo.svg" alt="Logo">
+                    <p class="pt-7 text-gray-500">We are dedicated to providing our customers with the highest quality diamond engagement rings and diamond jewellery.</p>
+                    <p class="pt-12">FOLLOW US</p>
+                    <div class="pt-7 space-x-6 flex items-center justify-center">
+                        <a class="hover:opacity-80 duration-200" href="#" target="_blank">
+                            <img src="images/social/facebook.svg" alt="facebook icon">
+                        </a>
+                        <a class="hover:opacity-80 duration-200" href="#" target="_blank">
+                            <img src="images/social/twitter.svg" alt="twitter icon">
+                        </a>
+                        <a class="hover:opacity-80 duration-200" href="#" target="_blank">
+                            <img src="images/social/instagram.svg" alt="instagram icon">
+                        </a>
+                        <a class="hover:opacity-80 duration-200" href="#" target="_blank">
+                            <img src="images/social/pinterest.svg" alt="pinterest icon">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="uppercase text-sm">shop online</h4>
+                    <ul class="pt-5 space-y-3 text-sm text-gray-500">
+                        <li><a class="hover:text-gray-400" href="#">Engagement Rings</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Bridal</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Jewellery</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Collections</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Bespoke</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Loose Diamonds</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="uppercase text-sm">About Us</h4>
+                    <ul class="pt-5 space-y-3 text-sm text-gray-500">
+                        <li><a class="hover:text-gray-400" href="#">Our World</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Above Conflict Free</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Giving Back</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Our Showrooms</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Our Team</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Stone Magazine</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="uppercase text-sm">Customer Service</h4>
+                    <ul class="pt-5 space-y-3 text-sm text-gray-500">
+                        <li><a class="hover:text-gray-400" href="#">Contact Us</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Store Locations</a></li>
+                        <li><a class="hover:text-gray-400" href="#">FAQ’s</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Manufacturers Warranty</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Delivery Information</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Shipping & Returns</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="uppercase text-sm">Help & Guidance</h4>
+                    <ul class="pt-5 space-y-3 text-sm text-gray-500">
+                        <li><a class="hover:text-gray-400" href="#">Stone Guides</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Price Match</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Finance Information</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Policies</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Our Services</a></li>
+                        <li><a class="hover:text-gray-400" href="#">Education</a></li>
+                    </ul>
+                </div>
             </div>
 
             <div class="pt-5 space-x-2 flex items-center justify-center">
